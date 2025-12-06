@@ -1,0 +1,261 @@
+/* list styles */
+
+
+ul.w {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.w {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    background-color: #E3F2FD;
+}
+
+li.w a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+}
+
+li.w a:hover {
+    background-color: #ffe697;
+    color: white;
+}
+
+
+/* Container styles */
+
+
+.container1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+
+/* INFO box styles */
+
+
+.INFO-box {
+    width: 55%;
+}
+
+.INFO-box h3 {
+    color: #37778f;
+}
+
+textarea {
+    width: 400px;
+    height: 30px;
+}
+
+form {
+    font-family: Arial, sans-serif;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-name {
+    width: 500px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #d7e8f3;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.button-box  {
+    text-align: center;
+}
+
+
+/* Right box styles */
+
+
+.right-box {
+    width: 30%;
+}
+.right-box h3 {
+    color: #37778f;
+    font-family: "Georgia", serif;
+    text-align: center ;
+}
+
+h3.video {
+    font-family: "Georgia", serif;
+}
+
+
+/* History box styles */
+
+
+.history-box {
+    background: #FFECB3;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    height: 200px;
+}
+
+.history-box h3 {
+    margin-bottom: 8px;
+}
+
+
+/* Image box styles */
+
+
+.img-box {
+    border: 1px solid #999;
+    padding: 6px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    background: white;
+}
+
+.img-box img {
+    width: 100%;
+    display: block;
+}
+
+
+/* vidoe box styles */
+
+.video {
+    border: 1px solid #999;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    background: white;
+}
+
+
+/* container styles */
+
+
+.container {
+    display: flex;
+    width: 80%;
+
+    margin-right: 40px;
+    background: #ffffff;
+    border: 2px solid #dedede;
+}
+
+
+/* Left sections */
+
+
+.left {
+    width: 60%;
+    background-color: #d7e8f3;
+    padding: 30px;
+}
+
+.left h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* Image row styles */
+
+
+.image-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+    margin-bottom: 20px;
+    transition: margin-bottom 0.3s ease, gap 0.3s ease;
+}
+
+.image-row:hover {
+    gap: 40px;
+}
+
+.image-row img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    opacity: 0.4;
+
+}
+
+.image-row img:hover {
+    opacity: 1;
+    border-radius: 20px;
+    transform: scale(1.4);
+}
+
+
+/* Right section styles */
+
+
+.right {
+    width: 40%;
+    padding: 25px;
+    background-color: #f7e28b;
+}
+
+.right h1 {
+    font-family: "Georgia", serif;
+    margin-bottom: 20px;
+}
+
+.right h2 {
+    font-family: "Georgia", serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.right pre {
+    font-family: "Georgia", serif;
+}
+
+
+/* Social icons styles */
+
+
+.icons {
+    margin-top: 40px;
+    font-size: 32px;
+    display: flex;
+    gap: 25px;
+}
+
+.icons a {
+    color: #2c2c2c;
+    margin: 15px;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icons a:hover {
+    color: #37778f;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.icons i {
+    opacity: 0.4;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.icons i:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
